@@ -3,7 +3,7 @@
 
 **Project Overview:**
 
-The project aimed to develop and evaluate a modified Balance Algorithm for online advertising budget allocation. The primary goal was to improve upon the basic Balance Algorithm's performance, fairness, and adaptability in real-world scenarios with diverse advertiser behaviors and keyword distributions. This project has a modified and optimised algorithm with proper results.
+The project aimed to develop and evaluate a modified Balance Algorithm for online advertising budget allocation. The primary goal was to improve upon the basic Balance Algorithm's performance, fairness, and adaptability in real-world scenarios with diverse advertiser behaviors and keyword distributions. This project has a modified and optimised algorithm with proper results. Read project.md for concrete results and explanations.
 
 **Development Steps:**
 
