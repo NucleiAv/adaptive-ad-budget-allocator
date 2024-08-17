@@ -98,7 +98,7 @@ In this scenario, advertiser budgets were allocated randomly to test the algorit
 
 | Algorithm                         | Total Revenue | Number of Advertisers with Spending       |
 | --------------------------------- | ------------- | -----------------------------------       |
-| Basic Balance                     |    83878      |    24(but mostly with only spending of 1) |
+| Basic Balance                     |    83,878      |    24(but mostly with only spending of 1) |
 | Modified Balance (Sliding Window) |  90,084       | 13                                        |
 
 
@@ -117,7 +117,7 @@ In this scenario, the budget allocation was skewed towards a few advertisers wit
 | Algorithm                         | Total Revenue | Number of Advertisers with Spending  |
 | --------------------------------- | ------------- | -----------------------------------  |
 | Basic Balance                     | 55,447        | 23                                   |
-| Modified Balance (Sliding Window) |  64637        | 21                                   |
+| Modified Balance (Sliding Window) |  64,637        | 21                                   |
 
 
 
