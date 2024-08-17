@@ -1,4 +1,4 @@
-# Adaptive and Fair Resource Allocation for Scalable Online Advertising
+# Adaptive and Fair Resource Allocation Algorithm for Scalable Online Advertising
 
 
 **2. Abstract:**
