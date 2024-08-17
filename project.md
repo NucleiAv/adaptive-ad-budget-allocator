@@ -1,4 +1,4 @@
-# Scalable Online Advertising Budget Management with Fair Resource Allocation and Adaptivity
+# Adaptive and Fair Resource Allocation for Scalable Online Advertising
 
 
 **2. Abstract:**
