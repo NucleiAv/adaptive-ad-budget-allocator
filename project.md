@@ -165,13 +165,13 @@ This project represents a significant step towards developing more effective and
 1. AdWords and Generalized On-line Matching[Aranyak Mehta,Amin Saberi,Umesh Vazirani,Vijay Vazirani]
 2. CS246: Mining Massive Data Sets [Stanford University , mmds.org]
 
-**8. Appendix**
+## Appendix
 
-* This portion mainly explains the code and different parts of it this mainly contains the explanations the code can be found on the github linked in the title:
+This portion mainly explains the code and different parts of it this mainly contains the explanations the code can be found on the github linked in the title:
 
 
-     1. Query.py:
-      **Query.py: Generating a Query Stream for Simulation**
+### Query.py:
+Query.py: Generating a Query Stream for Simulation
 
 **Context:**
 
@@ -215,9 +215,8 @@ The purpose of this script is to create a realistic query stream that reflects t
 - The `random.choices` function allows for potential repetition of keywords, creating a more realistic simulation of user queries.
 - The query stream is saved to a file for later use by the budget allocation algorithms.
 
-2.  
-
-**advertiser_normal_distribution.py: Generating Advertisers with Normally Distributed Budgets**
+### advertiser_normal_distribution.py
+advertiser_normal_distribution.py: Generating Advertisers with Normally Distributed Budgets
 
 **Context:**
 
@@ -300,7 +299,8 @@ The purpose of this script is twofold:
 - `conn.commit()`: Saves the changes made to the database.
 - `conn.close()`: Closes the connection to the database.
 
-3.  **random_advertiser.py: Generating Advertisers with Random Budgets**
+### random_advertiser.py
+random_advertiser.py: Generating Advertisers with Random Budgets
 
 **Context:**
 
@@ -371,7 +371,8 @@ The purpose of this script is to create a set of advertisers with diverse and un
 - `conn.commit()`: Saves all the changes made to the database.
 - `conn.close()`: Closes the connection to the database.
 
-4.  **advertiser_outlier.py: Generating Advertisers with Outlier Budgets**
+### advertiser_outlier.py
+advertiser_outlier.py: Generating Advertisers with Outlier Budgets
 
 **Context:**
 
@@ -426,7 +427,8 @@ The purpose of this script is to test the robustness and fairness of the balance
 - This distribution challenges the balance algorithms to allocate keywords fairly and maximize revenue even under extreme conditions.
 
 
-5.  **balance_algorithm_basic.py: Basic Balance Algorithm for Ad Allocation**
+### balance_algorithm_basic.py
+balance_algorithm_basic.py: Basic Balance Algorithm for Ad Allocation
 
 **Context:**
 
@@ -488,7 +490,8 @@ The purpose of this script is to allocate keywords from the query stream to adve
 
 
 
-6.  **mod_balance_algorithm.py: Modified Balance Algorithm with Sliding Window**
+### mod_balance_algorithm.py
+mod_balance_algorithm.py: Modified Balance Algorithm with Sliding Window
 
 **Context:**
 
@@ -551,7 +554,8 @@ The purpose of this script is to allocate keywords from the query stream to adve
 - It prioritizes advertisers with higher remaining budgets within each window.
 - It prevents advertisers from being selected if their budget has dropped below 50% of their initial allocation, promoting fairness.
 
-7.   **mod_balance_no_slide.py: Modified Balance Algorithm (No Sliding Window)**
+### mod_balance_no_slide.py
+mod_balance_no_slide.py: Modified Balance Algorithm (No Sliding Window)
 
 **Context:**
 
@@ -605,7 +609,8 @@ The purpose of this script is to investigate the impact of removing the sliding 
 - It retains the budget percentage check and prioritization of advertisers with higher remaining budgets.
 - By comparing this variant to the one with the sliding window, we can isolate the specific impact of the sliding window on performance and fairness.
   
-  8. **analyzer_mod.py: Analyzing Results of the Modified Balance Algorithm**
+### analyzer_mod.py
+analyzer_mod.py: Analyzing Results of the Modified Balance Algorithm
 
 **Context:**
 
@@ -654,7 +659,8 @@ The purpose of this script is twofold:
 - It saves the results in a "results.txt" file.
 
 
-9.  **analyzer_basic.py: Analyzing Results of the Basic Balance Algorithm**
+### analyzer_basic.py
+analyzer_basic.py: Analyzing Results of the Basic Balance Algorithm
 
 **Context:**
 
